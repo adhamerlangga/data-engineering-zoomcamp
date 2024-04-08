@@ -1,4 +1,18 @@
-#ignore docker volume
+# ignore docker volume
 
 01-docker-terraform/2_docker_sql/ny_taxi_postgres_data
-01-docker-terraform/1_terraform_gcp/terrademo/keys
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+
+# ignore keys
+*.json
