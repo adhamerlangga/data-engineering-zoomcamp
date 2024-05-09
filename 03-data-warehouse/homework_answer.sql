@@ -37,3 +37,9 @@ select distinct(PULocationID)
 from `imposing-vista-416522.taxi_data.green_taxi_partitioned_table`
 where lpep_pickup_datetime between '2022-06-01' and '2022-06-30';
 
+-- Question 6: Where is the data stored in the External Table you created?
+-- GCP Bucket
+
+-- Question 7: It is best practice in Big Query to always cluster your data:
+-- False
+-- Because when the data is <1GB, it's tend to slow down our query
