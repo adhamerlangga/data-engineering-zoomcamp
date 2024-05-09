@@ -43,3 +43,7 @@ where lpep_pickup_datetime between '2022-06-01' and '2022-06-30';
 -- Question 7: It is best practice in Big Query to always cluster your data:
 -- False
 -- Because when the data is <1GB, it's tend to slow down our query
+
+-- Question 8: Write a SELECT count(*) query FROM the materialized table you created. How many bytes does it estimate will be read? Why?
+-- 0 bytes
+-- Bigquery materialized table (the table where  data is stored in bigquery) has the metadata about the row counts. Hence no need to get all the rows and count it.
