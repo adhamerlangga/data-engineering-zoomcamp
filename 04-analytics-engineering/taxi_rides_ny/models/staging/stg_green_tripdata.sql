@@ -24,7 +24,7 @@ renamed as (
         ehail_fee,
         airport_fee,
         total_amount,
-        payment_type,
+        {{ get_payment_type_description('payment_type') }} as payment_type_descripted,
         distance_between_service,
         time_between_service,
         trip_type,
