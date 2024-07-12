@@ -1,5 +1,4 @@
 # ignore docker volume
-
 01-docker-terraform/2_docker_sql/ny_taxi_postgres_data
 
 # Local .terraform directories
@@ -13,6 +12,13 @@
 .terraformrc
 terraform.rc
 
-
 # ignore keys
 *.json
+
+# ignore environment settings and logs
+04-analytics-engineering/dbt-env/
+04-analytics-engineering/logs/
+
+# ignore large data files
+05-batch/code/fhvhv_tripdata_2021-01.parquet
+05-batch/code/fhvhv/
