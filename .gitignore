@@ -22,3 +22,4 @@ terraform.rc
 # ignore large data files
 05-batch/code/fhvhv_tripdata_2021-01.parquet
 05-batch/code/fhvhv/
+05-batch/code/data/
